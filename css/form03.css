@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #343A40;
+}
+
+.menu {
+    width: 50%;
+    margin: auto;
+    padding: 5px 0;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    justify-items: center;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.menu ul li a img {
+    width: 100%;
+}
+
+.banner {
+    background-image: url(../images/form03/bg.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_body {
+    /* background-color: #ffffff; */
+    width: 60%;
+    display: flex;
+}
+
+.relax {
+    width: 60%;
+}
+
+.relax_body {
+    width: 90%;
+    height: 80%;
+}
+
+.relax_body h1 {
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.relax_body h1 span {
+    color: #6DBD6D;
+}
+
+.relax_body p {
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.relax_body ul {
+    list-style: none;
+}
+
+.relax_body ul li {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+
+.relax_body ul li i {
+    font-size: 5px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.relax_body button {
+    background: #6DBD6D;
+    border: none;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.register {
+    width: 40%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_body {
+    width: 80%;
+    height: 80%;
+    background: #6DBD6D;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+.register_body h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.register_body p {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.register_body form {
+    width: 100%;
+}
+
+.register_body form input {
+    width: 98%;
+    margin-bottom: 5px;
+    padding: 10px 0px;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+
+.register_body form input[type="submit"] {
+    margin-top: 10px;
+    padding: 12px 0;
+    width: 100%;
+    background: #6DBD6D;
+    color: #ffffff;
+}

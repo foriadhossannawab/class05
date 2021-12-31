@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--google font-->
+        
+        <title>Second Form</title>
+        <link rel="icon" href="images/logo.png">
+
+        <!--css file-->
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/form02.css">
+
+    </head>
+
+    <body>
+        <!--header parts starts-->
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a hreaf="#">About Us</a></li>
+                    <li><a hreaf="#">Blog</a></li>
+                    
+                    <li><a hreaf="#">Gallery</a></li>
+                    <li><a hreaf="#">Event</a></li>
+                    <li><a hreaf="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--header parts ends-->
+
+        <!--content parts starts-->
+        <div class="hotel_booking">
+            <h1>hotel booking</h1>
+            <form>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname"  placeholder="Full Name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email"  placeholder="example@example.com" required><br>
+
+                <label for="text">Room Type:</label>
+                <select class="room">
+                    <option value=" Please Select ">Please Select</option>
+                    <option value="Standard Room (1 to 2 People)">Standard Room (1 to 2 People)</option>
+                    <option value="Family Room (1 to 4 People)">Family Room (1 to 4 People)</option>
+                    <option value="Private Room (1 to 3 People)">Private Room (1 to 3 People)</option>
+                    <option value="Mix Dorm Room (6 People)">Mix Dorm Room (6 People)</option>
+                    <option value="Female Dorm Room (6 People)">Female Dorm Room (6 People)</option>
+                    <option value="Male Dorm Room (6 People)">Male Dorm Room (6 People)</option>
+                </select><br>
+
+                <label for="Guest">Number of Guest:</label>
+                <input type="number" id="guest"  placeholder="Number of Guest" required><br>
+
+                <label for="arrival">Arrival Date:</label>
+                <input type="date" id="arrival"  placeholder="Arrival Date" required><br>
+
+                <label for="departure">Departure Date:</label>
+                <input type="date" id="departure"  placeholder="Departure Date" required><br>
+
+                <label for="pickup">Free Pickup?</label><br>
+                <input type="radio" id="pickup"  name="pickup" required> Yes Please! - Pick me up on arrival <br>
+                <input type="radio" id="pickup"  name="pickup" required> No Thanks - I'll make my own way there <br>
+
+                <label for="text">Special Requests</label><br>
+                <textarea name="" id="" cols="40" rows="10" ></textarea><br>
+
+                <input type="submit" value="Reservation"><br>
+            </form>
+
+        </div>
+        <!--content parts ends-->
+
+        
+
+    </body>
+</html>
+

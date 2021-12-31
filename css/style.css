@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #FFCC66;
+}
+
+header {}
+
+header nav {}
+
+.menu {
+    /* background: aqua; */
+    padding: 30px 0;
+    width: 60%;
+    margin-left: 30%;
+}
+
+.menu ul {
+    list-style: none;
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+.menu ul li {
+    font-size: 20px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+
+.menu ul li a {
+    color: #551A8B;
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.text {
+    width: 85%;
+    margin: auto;
+    padding: 0 0 50px 0;
+}
+
+.text p {
+    color: #ffffff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 15px;
+}
+
+.form {
+    /* height: 198px; */
+    width: 20%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.form h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #551A8B;
+    padding: 5px 0;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    border-bottom: 2px solid;
+}
+
+.form button {
+    padding: 12px 50px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    width: 80%;
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+.form button a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #551A8B;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+footer {
+    width: 95%;
+    margin: auto;
+}
+
+.footer_content {
+    margin: auto;
+    padding: 0px 10px;
+    margin: 30px 0 0 0;
+}
+
+.footer_body {
+    width: 60%;
+    float: right;
+    overflow: hidden;
+    padding: 50px 0px;
+    margin: 15px -320px;
+    display: flex;
+}
+
+.footer_title {
+    width: 40%;
+    float: left;
+    padding: 0 0px;
+    margin: 80px 115px;
+}
+
+.footer_title h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    color: #551A8B;
+}
+
+.footer_title p {
+    padding: 8px 100px 42px 10px;
+    text-transform: capitalize;
+    color: #551A8B;
+}
+
+.footer_title ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.footer_title ul li {
+    margin-right: 30px;
+}
+
+.footer_title ul li a {
+    color: #551A8B;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.about {
+    width: 20%;
+    padding: 0px 20px;
+}
+
+.about h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    color: #551A8B;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.about ul li {
+    margin-right: 30px;
+}
+
+.about ul li a {
+    color: #551A8B;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+
+}
+.other {
+    width: 20%;
+}
+.other h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    color: #551A8B;
+}
+.other ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+.other ul li {
+    margin-right: 30px;
+}
+.other ul li a {
+    color: #551A8B;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}

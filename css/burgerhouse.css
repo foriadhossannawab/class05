@@ -1,0 +1,580 @@
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #3d2514;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    /* overflow: hidden; */
+    padding: 0px 0;
+    background-image: url(../images/burgerhouse/banner.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.head_top {
+    display: flex;
+    justify-content: space-around;
+    height: 15%;
+}
+
+.logo {
+    width: 20%;
+    /* float: left; */
+    padding: 25px 115px;
+}
+
+.menu {
+    width: 60%;
+    /* float: right; */
+    overflow: hidden;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0 50px;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+
+.menu ul li {
+    margin-left: 10px;
+    float: left;
+    padding: 45px 22px;
+}
+
+.menu ul li a {
+    color: #3d2514;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.head_content {
+    width: 40%;
+    height: 70%;
+    margin-left: 80px;
+}
+
+.head_content p {
+    margin: 110px 0 0px 55px;
+    font-size: 25px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    padding: 8px 0 25px 0;
+}
+
+.head_content h1 {
+    color: #3d2514;
+    margin: 16px 0 0 80px;
+    padding: 0 0 0 10px;
+    font-size: 100px;
+    font-weight: revert;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.head_content h2 {
+    margin: 0px 0 0 95px;
+    padding: 0 0 0 12px;
+    font-size: 65px;
+    font-weight: 900;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.item_sec {
+    width: 30%;
+    margin: auto;
+    padding: 0 0 0 110px;
+}
+
+.item_sec h1 {
+    font-size: 45px;
+    padding: 15px 5px;
+    margin: 0 34px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.burger_item {
+    width: 90%;
+    height: 400px;
+    /* overflow: hidden; */
+    margin: auto;
+    /* padding: 10px 0; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.burger_item_one {
+    width: 48%;
+    height: 95%;
+    /* float: left; */
+    /*  */
+    /* padding: 0px 30px; */
+    background-image: url(../images/burgerhouse/burger01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.burger_item_one h2 {
+    color: #ffffff;
+    margin: 50px 0 0 40px;
+    font-size: 23px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.burger_item_one h1 {
+    color: #ffffff;
+    margin: 0px 0 0 40px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.burger_item_two {
+    width: 48%;
+    height: 95%;
+    /* padding: 0 30px; */
+}
+
+.top {
+    margin: 0 0 12px 0;
+    height: 48%;
+    width: 100%;
+    background-image: url(../images/burgerhouse/burger02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top h2 {
+    color: #ffffff;
+    padding-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.top h1 {
+    color: #ffffff;
+    margin: 2px 0 0 35px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bottom {
+    margin: 12px 0 0 0;
+    height: 48%;
+    width: 100%;
+    background-image: url(../images/burgerhouse/burger03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* FONT-VARIANT: JIS04; */
+}
+
+.bottom h2 {
+    color: #ffffff;
+    padding-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bottom h1 {
+    color: #ffffff;
+    margin: 2px 0 0 35px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.tasty {
+    width: 70%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.tasty button {
+    padding: 8px 0px;
+    margin: 2px 390px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.tasty h1 {
+    padding: 10px 318px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tasty p {
+    padding: 0 137px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lorem {
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.lorem_item_one {
+    width: 30%;
+    float: left;
+    padding: 0 0 0 18px;
+}
+
+.lorem_item_one img {
+    width: 100%;
+}
+
+.lorem_item_one h2 {
+    padding: 0 62px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.lorem_item_one p {
+    padding: 5px 64px;
+    font-size: 15px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lorem_item_one button {
+    padding: 2px 10px;
+    margin: 0 108px;
+    color: #3d2514;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 95px;
+}
+
+.discover {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    padding: 45px 0px;
+}
+
+.discover_item_one {
+    width: 45%;
+    float: left;
+    padding: 0 25px;
+}
+
+.discover_item_one img {
+    width: 100%;
+}
+
+.discover_item_one h1 {
+    font-size: 40px;
+    padding: 5px 140px;
+}
+
+.discover_item_one h2 {
+    padding: 0 120px;
+    font-size: 25px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.discover_item_one p {
+    padding: 10px 99px;
+    font-size: 15px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.discover_item_one button {
+    padding: 4px 11px;
+    margin: 10px 175px;
+    color: #3d2514;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.event {
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+    padding: 45px 0px;
+    background-color: #ffc657;
+    border-radius: 21%;
+}
+
+.event_item_one {
+    width: 45%;
+    float: right;
+    padding: 25px 25px;
+    border-radius: 40%;
+}
+
+.event_item_one h1 {
+    padding: 5px 100px;
+    font-size: 50px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.event_item_one h2 {
+    font-size: 28px;
+    padding: 5px 125px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.event_item_one p {
+    padding: 11px 70px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.event_item_one button {
+    padding: 15px 39px;
+    margin: 15px 165px;
+    background: transparent;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.event_item_two {
+    width: 45%;
+    float: right;
+    padding: 10px 25px;
+}
+
+.event_item_two img {
+    width: 100%;
+    border-radius: 25%;
+}
+
+.reservation {
+    /* width: 100%; */
+    background-image: url(../images/burgerhouse/burger08.png);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 100px 0 0px;
+}
+
+.reservation_content {
+    /* padding: 0px 0; */
+    margin: 2px 0;
+    width: 50%;
+    /* justify-content: center; */
+    margin: auto;
+    /* align-items: center; */
+}
+
+.reservation_content h1 {
+    text-transform: uppercase;
+    width: 95%;
+    color: #ffff;
+    padding: 18px 0px;
+    border-radius: 5px;
+    margin: 15px 0px 15px 15px;
+    background: #b0342e;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reservation_content form {
+    text-transform: capitalize;
+    /* border: 1px solid; */
+    margin: 6px 10px;
+    text-align: center;
+    /* background: #797f00; */
+    width: 80%;
+    margin: auto;
+    /* margin-left: 0px; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reservation_content form input {
+    width: 80%;
+    text-transform: capitalize;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #3d2514;
+    margin: 5px 0 5px 0;
+    padding: 0 0px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.reservation_content input[type="submit"] {
+    margin: auto;
+    width: 60%;
+    padding: 5px 0;
+    margin-top: 6px;
+    color: #3d2514;
+}
+
+.reservation_submit button {
+    padding: 15px 75px;
+    background: #ffc657;
+    text-transform: uppercase;
+    border-radius: 37%;
+    font-size: 30px;
+    margin: 0 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    width: 95%;
+    margin: auto;
+    background-image: url(../images/burgerhouse/footer.png);
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer_content {
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 10px;
+    margin: 3px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_body {
+    width: 40%;
+    padding: 60px 45px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_title {
+    width: 40%;
+    padding: 0px 110px;
+    margin: 80px 0px 80px 56px;
+}
+
+.footer_title h1 {
+    padding: 0px 0;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+
+.footer_title p {
+    padding: 8px 100px 42px 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.footer_title ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_title ul li {
+    margin-right: 30px;
+}
+
+.footer_title ul li a {
+    color: #ffffff;
+    background: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+    width: 40%;
+    padding: 0px 0px;
+}
+
+.about h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.about ul li {
+    margin-right: 30px;
+}
+
+.about ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.other {
+    width: 40%;
+}
+
+.other h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+
+.other ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.other ul li {
+    margin-right: 30px;
+}
+
+.other ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
